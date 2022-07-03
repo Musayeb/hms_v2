@@ -1,0 +1,49 @@
+*::-ms-backdrop, .card-body {
+	height: 100%;
+}
+*::-ms-backdrop, .breadcrumb-3 li, *::-ms-backdrop, .breadcrumb-4 li, *::-ms-backdrop, .breadcrumb-5 li, *::-ms-backdrop, .breadcrumb-1 li, *::-ms-backdrop, .breadcrumb-2 li, *::-ms-backdrop, .breadcrumb-6 li {
+	display: inline-block;
+}
+*::-ms-backdrop, .custom-control-label {
+	padding-left: 1.8rem;
+}
+*::-ms-backdrop, .custom-control {
+	padding-left: 0;
+}
+*::-ms-backdrop, .media-list .mediaicon {
+	margin-right: 1.5rem !important;
+}
+*::-ms-backdrop, .chat-persons {
+	height: 100%;
+}
+*::-ms-backdrop, .full-screen-link {
+	display: none;
+}
+*::-ms-backdrop, .header-1.header .dropdown-menu-right.dropdown-menu, .header .dropdown-menu-right.dropdown-menu {
+	left: 0 !important;
+}
+*::-ms-backdrop {
+	right: 0 !important;
+	left: auto !important;
+}
+.header {
+	.header-right-icons .dropdown-menu-right.dropdown-menu, &.header-2 .dropdown-menu-right.dropdown-menu {
+		right: 0 !important;
+		left: auto !important;
+	}
+}
+*::-ms-backdrop, .media-body, .media-left, .media-right {
+	display: block;
+}
+*::-ms-backdrop, .h-197 {
+	height: 197px;
+}
+*::-ms-backdrop, .card-img-absolute {
+	margin-left: 0;
+}
+@media (max-width: 767px){
+ *::-ms-backdrop, .responsive-navbar.navbar .navbar-collapse{
+  margin-top:-7px;
+ 
+ }
+}

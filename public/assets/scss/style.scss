@@ -1,0 +1,195 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project        :   FLAIRA - HTML5 Bootstrap Admin Template
+Version        :   V.1
+Create Date    :   29/12/20
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   SprukoSoft
+Author URL     :   https://themeforest.net/user/sprukosoft
+Support	       :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+
+/*
+1.	Bootstrap-custom
+2.	Accordions
+3.	Alerts
+4.	Badges
+5.	Breadcrumbs
+6.	Buttons
+7.	Cards
+8.	Carousel
+9.	Dropdown
+10.	Forms
+11.	Grid
+12.	Input-group
+13.	Modals
+14.	Navigation
+15.	Pagination
+16.	Popover
+17.	Progress
+18.	Tables
+19. Float-styles
+20.	Avathars
+21. panel
+22.	Tooltip
+23.	Custom-control
+24.	Highlight
+25.	Lable
+26.	Footer
+27.	Header
+28.	Profile
+29.	Iconbar
+30.	Datepicker
+31.	Images
+32.	Jqvmap
+33.	Chart
+34.	Custom-range
+35.	Custom-styles
+36.	Rangeslider
+37.	Select2
+38.	Spectrum
+39.	Calendar
+40.	Chat
+41.	Maps
+42.	Error
+43.	Invoice
+44.	Mail
+45.	Profile
+46.	Spinners
+47.	Pricing
+48.	Widget
+49.	Alignments
+50.	Background
+51.	Display
+52.	Border
+53.	Height
+54.	Margin
+55.	Flex
+56.	Padding
+57.	Position
+58.	Typography
+59.	Width
+60.	Tags
+61.	Tabs
+62.	Loader
+63.	Media
+64.	P-scroll
+65.	Ribbons
+66.	Rating
+67.	Timeline
+68.	Item-cards
+69.	Flags
+70.	List
+71.	Checkbox
+72.	Toggle
+73.	Listgroup
+74.	Jumborton
+75.	Custom-control
+76.	Select-group
+77.	Custom-styles
+78.	Components-col
+79.	Selectize
+80.	Components-col
+*/
+
+/* ########## BOOTSTRAP OVERRIDES ########## */
+
+
+@import "custom/fonts/_fonts.scss";
+@import "variables";
+
+
+@import "bootstrap/accordions";
+@import "bootstrap/alerts";
+@import "bootstrap/avathar";
+@import "bootstrap/badges";
+@import "bootstrap/bootstrap-custom";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/buttons";
+@import "bootstrap/cards";
+@import "bootstrap/carousel";
+@import "bootstrap/dropdown";
+@import "bootstrap/forms";
+@import "bootstrap/grid";
+@import "bootstrap/input-group";
+@import "bootstrap/modals";
+@import "bootstrap/navigation";
+@import "bootstrap/pagination";
+@import "bootstrap/panel";
+@import "bootstrap/popover";
+@import "bootstrap/progress";
+@import "bootstrap/tables";
+@import "bootstrap/tooltip";
+
+
+/* ############### CUSTOM ELEMENT STYLES ############### */
+@import "custom/components-col";
+@import "custom/custom-control";
+@import "custom/custom-range";
+@import "custom/custom-styles";
+@import "custom/highlight";
+@import "custom/Ie-styles";
+@import "custom/image";
+@import "custom/jumborton";
+@import "custom/label";
+@import "custom/list";
+@import "custom/listgroup";
+@import "custom/loader";
+@import "custom/media";
+@import "custom/p-scroll";
+@import "custom/rating";
+@import "custom/ribbons";
+@import "custom/tabs";
+@import "custom/tags";
+@import "custom/timeline";
+
+
+/* ########## LAYOUTS  ########## */
+
+@import "layouts/flags";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/horizontal-menu";
+@import "layouts/iconbar";
+@import "layouts/item-cards";
+@import "layouts/sidebar";
+
+
+/* ############### CUSTOM VENDOR STYLES ############### */
+@import "lib/chart";
+@import "lib/datepicker";
+@import "lib/jqstooltip";
+@import "lib/jqvmap";
+@import "lib/rangeslider";
+@import "lib/select2";
+@import "lib/select-group";
+@import "lib/selectize";
+
+/* ############### TEMPLATE STYLES ############### */
+@import "template/calendar";
+@import "template/chat";
+@import "template/error";
+@import "template/mail";
+@import "template/maps";
+@import "template/pricing";
+@import "template/profile";
+@import "template/spinner";
+@import "template/widget";
+
+
+/* ############### UTILITIES/HELPER CLASSES ############### */
+@import "util/alignments";
+@import "util/background";
+@import "util/border";
+@import "util/display";
+@import "util/flex";
+@import "util/float-styles";
+@import "util/height";
+@import "util/margin";
+@import "util/padding";
+@import "util/position";
+@import "util/typography";
+@import "util/width";

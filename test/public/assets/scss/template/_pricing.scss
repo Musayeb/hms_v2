@@ -1,0 +1,292 @@
+/*-----Pricing tables-----*/
+
+.pricing-divider {
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.pricing {
+	color: #fff;
+}
+.pricing1 {
+	color: #707070;
+}
+.pricing {
+	.card-category {
+		background: rgba(255, 255, 255, 0.3);
+		padding: 10px 0;
+		color: #fff;
+	}
+	.list-unstyled li {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		padding: 7px 0;
+	}
+}
+.pricing1 {
+	.list-unstyled li {
+		border-bottom: 1px solid #eaedf1;
+		padding: 7px 0;
+	}
+	.card-category {
+		background: rgba(255, 255, 255, 0.3);
+		padding: 20px 0;
+		border-radius: 7px 7px 0 0;
+		color: #Fff;
+	}
+}
+.pricing-table {
+	width: 100%;
+	margin: 0 auto;
+	transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	border-radius: 0px;
+	&:hover {
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+		> {
+			.panel-footer-landing {
+				box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05) inset;
+				-webkit-transition: all .3s ease;
+			}
+			.panel> {
+				.panel-body-landing {
+					background: #1643A3;
+					-webkit-transition: all .3s ease;
+				}
+				.panel-heading-landing-box {
+					background: #fff !important;
+					color: #333 !important;
+					-webkit-transition: all .3s ease;
+				}
+				.controle-header {
+					background: #1643A3 !important;
+					/*    border: solid 2px #5CB85C !important;*/
+					-webkit-transition: all .3s ease;
+				}
+				.panel-footer {
+					background: #1643A3 !important;
+					/*    border: solid 2px #5CB85C !important;*/
+					-webkit-transition: all .3s ease;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+.princing-item:hover {
+	.deco-layer--1 {
+		-webkit-transform: translate3d(15px, 0, 0);
+		transform: translate3d(15px, 0, 0);
+	}
+	.deco-layer--2 {
+		-webkit-transform: translate3d(-15px, 0, 0);
+		/* transform: translate3d(-15px, 0, 0); */
+	}
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+.btn-price:hover {
+	background: #fff !important;
+	color: #1643A3 !important;
+	-webkit-transition: all .3s ease;
+}
+.pricing-table {
+	&:hover {
+		>.panel>.controle-header>.panel-title-landing {
+			color: #fff !important;
+			-webkit-transition: all .3s ease;
+			font-size: 35px;
+		}
+		>.panel>.panel-body-landing>.table>tbody>tr>td {
+			font-weight: 500;
+			-webkit-transition: all .3s ease;
+		}
+	}
+	>.panel>.controle-header>.panel-title-landing {
+		color: #000 !important;
+		font-size: 35px;
+	}
+}
+.table> {
+	tbody>tr>th {
+		font-weight: 500;
+		-webkit-transition: all .3s ease;
+	}
+	tfoot>tr> {
+		td, th {
+			font-weight: 500;
+			-webkit-transition: all .3s ease;
+		}
+	}
+	thead>tr> {
+		td, th {
+			font-weight: 500;
+			-webkit-transition: all .3s ease;
+		}
+	}
+}
+.panel-body-landing:hover>.table>tbody>tr>td {
+	color: #fff !important;
+	-webkit-transition: all .3s ease;
+}
+.panel-heading-landing {
+	background: #f7f7f7 !important;
+	padding: 20px !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	border: solid 2px #1643A3 !important;
+	border-bottom: none !important;
+	text-align: center;
+	margin-top: 20px;
+}
+.col-sm-4 .pricing-table .table td {
+	padding: 0.75rem;
+	vertical-align: top;
+	text-align: left;
+}
+.panel-heading-landing-box {
+	background: #1643A3 !important;
+	color: #fff !important;
+	font-size: 16px !important;
+	text-align: center;
+	border-top: none !important;
+}
+.panel-title-landing {
+	color: #1643A3 !important;
+	font-size: 35px;
+	font-weight: bold;
+}
+.panel-body-landing {
+	border: solid 2px #1643A3 !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	text-align: center;
+	background: #fff;
+}
+.panel-footer-landing {
+	border: solid 2px #1643A3 !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+	border-top: none !important;
+	text-align: center;
+	background: #f7f7f7;
+}
+/*------ Pricing Styles ---------*/
+
+.panel.price {
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	>.panel-heading {
+		-moz-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		-webkit-transition: all .3s ease;
+	}
+	h3 {
+		margin-bottom: 0;
+		padding: 20px 0;
+	}
+}
+.panel-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	background: #fff;
+}
+.panel.price {
+	>.panel-heading {
+		color: #fff;
+	}
+	.list-group-item {
+		&:last-child {
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		&:first-child {
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+		}
+	}
+	margin-bottom: 1.5rem;
+	box-shadow: 0px 22px 68px -9px rgba(0, 0, 0, 0.15);
+	&:hover {
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+	}
+}
+.price {
+	.panel-footer {
+		border-bottom: 0px;
+		background-color: #fff;
+		border-left: 0;
+		border-right: 0;
+	}
+	&.panel-color>.panel-body {
+		background-color: #fff;
+	}
+}
+.panel-body {
+	padding: 15px;
+	.lead {
+		strong {
+			font-size: 40px;
+			margin-bottom: 0;
+		}
+		font-size: 20px;
+		margin-bottom: 0;
+		padding: 10px 0;
+	}
+}
+.panel-footer {
+	padding: 10px 15px;
+	background-color: #fff;
+	border-top: 1px solid #eaedf1;
+	border-left: 1px solid #eaedf1;
+	border-right: 1px solid #eaedf1;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.panel.price .btn {
+	box-shadow: 0 -1px 0px rgba(50, 50, 50, 0.2) inset;
+	border: 0px;
+}
+.product_price {
+	.old_price {
+		text-decoration: line-through !important;
+		color: #93a3ba;
+	}
+	li {
+		display: inline-block;
+		padding: 0 10px;
+	}
+}
+.product-price {
+	font-size: 1rem;
+	strong {
+		font-size: 1.5rem;
+	}
+}
+.primary .pricing-divider {
+	padding: 1em 0 4em;
+	position: relative;
+}
+.secondary .pricing-divider {
+	background: linear-gradient(to bottom right, #fbc434 0%, #f66b4e 100%) !important;
+	padding: 1em 0 4em;
+	position: relative;
+}
+.info .pricing-divider {
+	background: linear-gradient(to bottom right, #f1644b 0%, #f94971 100%) !important;
+	padding: 1em 0 4em;
+	position: relative;
+}
+.success .pricing-divider {
+	background: linear-gradient(to bottom right, #62fb62 0%, #21a544 100%) !important;
+	padding: 1em 0 4em;
+	position: relative;
+}
+.pricing-divider-img {
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+.price-detail-wrap .rating-stars {
+	text-align: left !important;
+}
+/*end of pricing*/

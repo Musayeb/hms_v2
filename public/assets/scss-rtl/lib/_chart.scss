@@ -1,0 +1,281 @@
+/*------ Charts styles ------*/
+
+.chart-visitors {
+	min-height: 20rem;
+	overflow: hidden;
+}
+.chart-tasks {
+	height: 15rem;
+	overflow: hidden;
+}
+.chart-donut, .chart-pie {
+	height: 21rem;
+	overflow: hidden;
+}
+.chartsh {
+	height: 16rem;
+	overflow: hidden;
+}
+.chartwidget {
+	height: 17rem;
+	overflow: hidden;
+}
+.chart-circle {
+	height: 7rem;
+	width: 7rem;
+	position: relative;
+}
+.chart-circle-1 {
+	display: initial;
+	height: 12rem;
+	width: 12rem;
+	position: relative;
+}
+.chart-circle canvas {
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+.chart-circle-xs {
+	height: 2.5rem;
+	width: 2.5rem;
+	font-size: .8rem;
+}
+.chart-circle-sm {
+	height: 3rem !important;
+	width: 3rem !important;
+	font-size: .5rem;
+}
+.chart-circle-lg {
+	height: 9rem;
+	width: 9rem;
+	font-size: 1.8rem;
+}
+.chart-circle-value {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	line-height: 1;
+	small {
+		display: block;
+		color: #9aa0ac;
+		font-size: 0.9375rem;
+	}
+}
+.chart-circle-1-value {
+	position: absolute;
+	top: -184px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	line-height: 1;
+	font-size: 40px;
+	small {
+		display: block;
+		color: #9aa0ac;
+		font-size: 0.9375rem;
+	}
+}
+.chart-circle-value-3 {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	line-height: 1;
+}
+.chart-circle-value-4 {
+	position: absolute;
+	top: -66px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	line-height: 1;
+	font-size: 50px;
+}
+.amcharts-chart-div a, .canvasjs-chart-container a {
+	display: none !important;
+}
+.rotation {
+	-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+.amChartsLegend.amcharts-legend-div {
+	display: none;
+}
+/*----chart-drop-shadow----*/
+
+.chart-dropshadow {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(0, 0, 0, 0.1));
+	filter: drop-shadow((-6px) 12px 4px rgba(0, 0, 0, 0.1));
+}
+.chart-dropshadow2 {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow((-6px) 12px 4px rgba(0, 0, 0, 0.2));
+}
+.chart-dropshadow-primary {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(133, 67, 246, 0.5));
+	filter: drop-shadow((-6px) 12px 4px rgba(133, 67, 246, 0.5));
+}
+.chart-dropshadow-primary-1 {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(133, 67, 246, 0.2));
+	filter: drop-shadow((-6px) 12px 4px rgba(133, 67, 246, 0.2));
+}
+.chart-dropshadow-danger {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(244, 88, 91, 0.5));
+	filter: drop-shadow((-6px) 12px 4px rgba(244, 88, 91, 0.5));
+}
+.chart-dropshadow-success {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(69, 213, 85, 0.5));
+	filter: drop-shadow((-6px) 12px 4px rgba(69, 213, 85, 0.5));
+}
+.chart-dropshadow-warning {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(251, 141, 52, 0.5));
+	filter: drop-shadow((-6px) 12px 4px rgba(251, 141, 52, 0.5));
+}
+.GradientlineShadow {
+	-webkit-filter: drop-shadow(0 -8px 4px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0 -8px 4px rgba(0, 0, 0, 0.2));
+}
+.BarChartShadow {
+	-webkit-filter: drop-shadow((-4px) 9px 4px rgba(0, 0, 0, 0.3));
+	filter: drop-shadow((-6px) 9px 4px rgba(0, 0, 0, 0.3));
+}
+.donutShadow {
+	-webkit-filter: drop-shadow((-5px) 4px 6px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow((-1px) 0px 2px rgba(159, 120, 255, 0.5));
+}
+.donutShadow-yellow {
+	-webkit-filter: drop-shadow((-5px) 4px 6px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow((-1px) 0px 2px rgba(251, 196, 52, 0.5));
+}
+.donutShadow-blue {
+	-webkit-filter: drop-shadow((-5px) 4px 6px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow((-1px) 0px 2px rgba(36, 72, 135, 0.5));
+}
+.circle-icon {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	margin-top: 13px;
+	margin-right: 13px;
+	float: right;
+}
+.square-icon {
+	height: 88px;
+	width: 81px;
+	position: absolute;
+	float: right;
+	border-radius: 7px 0px 0px 7px;
+	line-height: 7;
+}
+.highcharts-credits, .highcharts-button, .highcharts-data-label, .highcharts-label {
+	display: none;
+}
+.highcharts-data-label-connector {
+	display: none !important;
+}
+#orders {
+	position: relative;
+	bottom: -10px;
+	height: 102px !important;
+	width: 100% !important;
+}
+#profit {
+	position: relative;
+	bottom: -13px;
+	height: 111px !important;
+}
+#total-customers {
+	position: relative;
+	left: -11px;
+}
+#sales-revenue {
+	position: relative;
+	bottom: -13px;
+}
+#resolved-complaints {
+	position: relative;
+	bottom: -13px;
+	left: -4px;
+	height: 199px;
+}
+#areaChart1, #areaChart2, #areaChart3, #areaChart4 {
+	height: 7rem !important;
+}
+/*----chart-drop-shadow----*/
+
+.chart-dropshadow-secondary {
+	-webkit-filter: drop-shadow(0px 2px 0px rgba(167, 66, 153, 0.2));
+	filter: drop-shadow(0px 2px 0px rgba(167, 66, 153, 0.2));
+}
+.chart-dropshadow-info {
+	-webkit-filter: drop-shadow(0px 2px 0px rgba(7, 116, 248, 0.2));
+	filter: drop-shadow(0px 2px 0px rgba(7, 116, 248, 0.2));
+}
+#SalesChart1, #SalesChart2, #SalesChart3, #SalesChart4 {
+	width: 110% !important;
+	height: 100px !important;
+	bottom: -15px;
+	position: relative;
+	left: -17px;
+	overflow: hidden !important;
+	border-radius: 27%;
+}
+#AreaChart5 {
+	width: 105% !important;
+	height: 163px !important;
+	bottom: -15px;
+	position: relative;
+	left: -7px;
+}
